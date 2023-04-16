@@ -1,0 +1,21 @@
+.a {
+  background-image: url(./small_png.png);
+  border: 5px solid red;
+  width: 250px;
+  height: 250px;
+}
+
+.b {
+  background-image: url(./small_png.png);
+  width: 250px;
+  height: 250px;
+  border: 5px solid green;
+}
+
+/* So this program was something cool that I wrote here I wanted 
+to cover more when it comes to background image and then putting the 
+url as the small_png something else that I wanted to mention here was 
+that when we created two div and then for the background image of the 
+div we chose the image the best way of this is thinking as changing our 
+wallpaper by doing this what we end up doing is creating the div and then 
+for the background instead of color for the div we put an image */

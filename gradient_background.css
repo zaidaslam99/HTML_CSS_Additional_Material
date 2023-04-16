@@ -1,0 +1,47 @@
+.a {
+  background-image: linear-gradient(
+    105deg,
+    rgba(0, 249, 255, 1) 39%,
+    rgba(51, 56, 57, 1) 96%
+  );
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
+  border: 5px solid black;
+}
+
+.b {
+  background-image: radial-gradient(
+    circle,
+    rgba(0, 249, 255, 1) 39%,
+    rgba(51, 56, 57, 1) 96%
+  );
+  background-size: 30px 20px;
+  width: 300px;
+  height: 300px;
+  border: 5px solid black;
+}
+
+/* So lets examine what is going on here we talked about linear 
+gradient and how they make a pattern but the thing that we need 
+to know is that linear gradient acts like a background just like 
+when it comes to the use of images in the first one we specified 
+the degree in this case 105 degree and in the second one what we
+did was we specified the size in this case 30px and 20px that is 
+something to take into account here  
+
+* One thing here to know is the first one its a linear gradient and 
+the second one is a linear gradient thats why the design really 
+looks different 
+
+* Something that I wanted to mention here is the background size 
+we talked about how this offsets the image in this case since we are 
+using a linear gradient its going to offset it and keep doing it 
+till the container is going to be covered that is something to take 
+into account here
+
+* Lastly its important to understand here linear gradients are 
+just like putting images on div containers that is something to be 
+wary of here
+
+*/

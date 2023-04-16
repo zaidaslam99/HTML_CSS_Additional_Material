@@ -1,0 +1,63 @@
+.wrapper {
+  display: flex;
+  border: 5px solid gold;
+}
+
+.box1 {
+  border: 3px solid black;
+  width: 100px;
+  height: 25px;
+  background-color: aqua;
+  color: black;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.box2 {
+  border: 3px solid black;
+  width: 100px;
+  height: 25px;
+  background-color: blueviolet;
+  color: black;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.box3 {
+  border: 3px solid black;
+  width: 100px;
+  height: 25px;
+  background-color: red;
+  color: black;
+  font-weight: bold;
+  padding: 5px;
+}
+
+/* 
+
+So the first thing that we need to know is that we we 
+have 3 different div and what we are doing is that we 
+have an outer div and within the div we have 3 different 
+div and the thing that I wanted to highlight was that 
+we changed the main div to display of flex then the inner 
+children become stacked next to each other
+
+If we add display flex to the parent the three items now 
+arrange themselves into columns this is due to them 
+becoming flex items and being affected by some initial 
+values that flexbox sets on the flex container the 
+reason why they are shown in rows is because the property 
+flex direction of the parent element has an initial value 
+of row they stretch in height because the property align 
+items of the parent element has an initial value of stretch 
+that means the item stretch to the height of the flex container
+which in the case is defined by the tallest item the items 
+align in at start of the container leaving any extra space 
+at the end of the row
+
+*/
+
+/* 
+    Notice how the div start at the start of the flex container
+    in this case the blue box  
+*/

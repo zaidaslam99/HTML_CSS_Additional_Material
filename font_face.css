@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "myFont";
+  src: url("myFont.woff2");
+}
+
+html {
+  font-family: "myFont", "Bitstream Vera Serif", serif;
+}
+
+/* 
+
+Something that I wanted to mention here is that notice that 
+we are using this @ called font-face and here we are specifying 
+that its a font-face and then the font-family we are using 
+myFont and the url so when we call the fontfamily we can 
+use myfont a cool way to understand what this is doing is 
+that we can create a font and put in a url and then save that 
+font and when it comes html we can use that font that we 
+created this was something new that I had learned
+
+*/

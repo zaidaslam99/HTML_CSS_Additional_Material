@@ -1,0 +1,40 @@
+span,
+strong,
+em {
+    background-color: yellow;
+    color: rebeccapurple;
+    color: rebeccapurple;
+}
+
+/* Attribute Selectors */
+/* Main thing to take away here is we can select the element based on an 
+attribute of an element  */
+a[title]{
+
+}
+
+a[href="www.google.com"]{
+
+}
+
+/* Pseudo Class pseudo elements */
+/* Main thing to take away from them is that when we are working with the 
+a tag this means when we hover over the a tag a part of the element a and when 
+it comes to p what we are saying is that the firs line of p */
+
+a:hover{
+
+}
+
+p::first-line{
+
+}
+
+
+/* Combinators */
+/* Here we are targeting elements within our document so here this is going to be targeting 
+the p tag that are within article */
+
+article > p {
+
+}

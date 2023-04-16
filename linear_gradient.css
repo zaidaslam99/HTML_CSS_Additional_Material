@@ -1,0 +1,28 @@
+.image {
+  background-image: url(./duck_image.png);
+
+  border: 3px solid black;
+  width: 200px;
+  height: 200px;
+}
+
+.gradient {
+  background-image: linear-gradient(
+    90deg,
+    rgba(119, 0, 255, 1) 39%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border: 3px solid purple;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+/* 
+
+Once again we are learning about linear gradient here where we 
+can set the direction of the gradient and the color of the gradient.
+as well the cool thing about this is that we are using an 
+image and a gradient. 
+
+*/

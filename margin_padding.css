@@ -1,0 +1,18 @@
+.box {
+  border: 5px solid darkblue;
+  width: 300px;
+  margin: 10%;
+  padding: 10%;
+}
+
+/* 
+
+So this was something that I was wondering about and the thing 
+that we need to take away from here is that when we set margin 
+as percentage we need to understand that its not going to be 
+alternating percentages meaning that width with width percentage is
+and height with height rather its going to be based on the 
+direction of the inline on all four sides that means that we 
+are going to be having an even spread throughout the whole box
+
+*/

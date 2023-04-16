@@ -1,0 +1,22 @@
+body {
+  color: gold;
+}
+
+.my-class-1 {
+  color: inherit;
+}
+
+.my-class-2 {
+  color: initial;
+}
+
+.my-class-3 a {
+  color: unset;
+}
+
+/* Notice that we changed gold to the body what we then do is 
+we change the color for each of the class in class 1 we set to 
+inherit this acts no different from the first li that we created 
+the second is initial what this does is that it resets it to the 
+default and lastly is the unset this changes everything to gold 
+including the link that is normally supposed to be in blue */

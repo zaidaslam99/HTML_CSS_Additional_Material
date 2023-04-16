@@ -1,0 +1,20 @@
+ul > li {
+  border-top: 5px solid red;
+  background-color: yellow;
+}
+
+/* So here this is known as a child combinator and its placed 
+between two css selectors now here this is really simple to 
+understand and that being why is it that there are two lines 
+that are going to be going on the top of li? and not the ol li
+and the answer to that is really simple the first thing that 
+we need to understand is that we want li after ul anything past 
+that we don't want the second thing that we need to know is notice 
+the use of border top and that means this means we want a border 
+only for the top of the li thats why its making the two lines 
+when we remove the > then it goes back to making that for all 
+the li when it comes to the yellow as you can see that its highlight
+everything and the reason being its highlighting the first li 
+element and then its going to be doing the same for the other li 
+and its going to think that everything for the second is going to 
+within li so it thinks of it as a block almost in a way */

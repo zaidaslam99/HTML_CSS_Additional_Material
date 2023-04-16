@@ -1,0 +1,21 @@
+.box {
+  border: 5px solid green;
+  width: 200px;
+  height: 100px;
+  overflow: scroll;
+}
+
+p {
+  border: 5px solid red;
+}
+
+/* 
+
+So here we are going to be talking about the overflow 
+property and how we can use scrollbars to display the info 
+that is within the box. Something interesting that we learned 
+is that we can scroll both in the x and y direction this 
+is used regardless if the box needs space or not that is something 
+to be aware of here.
+
+*/

@@ -1,0 +1,11 @@
+h1 ~ p {
+  font-weight: bold;
+  background-color: #333;
+  color: #fff;
+  padding: 5em;
+}
+
+/* So this is really simple to understand but the thing that 
+we need to know is that this is going to be targeting every 
+p after h1 tag really all there is notice that its not specific 
+to adjacent value */

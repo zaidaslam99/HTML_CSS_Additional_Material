@@ -1,0 +1,26 @@
+.box {
+  background-image: url(./small_png.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 600px;
+  height: 600px;
+  border: 5px solid red;
+}
+
+/* So here we are learning about resizing an image again 
+important note that we need to understand here is that not 
+only we can control whether or not the image repeats or not 
+rather we can control the size of the image as well that is 
+something else to be considerate about here important to 
+understand the image is going to be put on the div which is 
+the empty container that we created here wallpaper style now 
+the other thing that we need to know is this that the background 
+size is rather simple to understand that contain and cover 
+really do something similar here the other thing that we need 
+to know is that we can also reformat the image that is on the 
+div not only whether it repeats but also for the whole image to 
+cover everything here 
+
+* So essentially we are going to be using the cover or contain 
+say that we want this image to cover the div and not do the whole 
+repeat thingy */

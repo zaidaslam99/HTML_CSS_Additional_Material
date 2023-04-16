@@ -1,0 +1,15 @@
+.word {
+  border: 5px solid green;
+  width: 100px;
+  font-size: 250%;
+  overflow-x: scroll;
+}
+
+/* 
+
+Here we need to know that we are indicating the overflow direction 
+in this case its going to be x and we are setting the scroll of the 
+x here this is not recommended here to account for long words we 
+can use word break or overflow wrap 
+
+*/

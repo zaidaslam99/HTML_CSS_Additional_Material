@@ -1,0 +1,25 @@
+.wrapper {
+  width: 400px;
+  border: 5px solid red;
+  background-color: lightcoral;
+  color: white;
+  border-radius: 5px;
+  height: 400px;
+}
+
+.box {
+  width: calc(50% + 10px);
+  border: 5px solid blue;
+  background-color: lightblue;
+  color: white;
+  border-radius: 5px;
+}
+
+/* 
+
+So here we learned that css also has a function called calc
+and the thing that we need to take away from here is that 
+all this does is calculate based on the wrapper that it is 
+is within that is something to take into account.  
+
+*/

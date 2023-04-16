@@ -1,0 +1,19 @@
+li[class^="a"] {
+  font-size: 200%;
+}
+
+li[class$="a"] {
+  background-color: yellow;
+}
+
+li[class*="a"] {
+  color: red;
+}
+
+/* So this was really cool to learn because what we are learning 
+here is simple so when it comes ^= a this means what begins with 
+a $= a means what ends with a and *= a means anything that has a 
+that is something to be aware of here. */
+
+/* These selectors allow for more advanced matching of substring 
+inside the value of your attribute  */

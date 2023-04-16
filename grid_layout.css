@@ -1,0 +1,31 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px;
+  gap: 10px;
+}
+
+/* 
+    
+
+
+*/
+
+/* 
+    General notes FlexBox
+
+    So the thing that we need to know here is that display 
+    property has standard values such as block inline or 
+    height can change how elements behave in normal flow 
+    for example making a block level element behave like 
+    an inline element something else that we need to know 
+    is that when changing the display to either block or 
+    inline we need to use display flex or grid
+
+    flexbox is a short name for flexible box layout designed 
+    to make it easy for us to lay things out in one dimension
+    either as a row or as a column to use flexbox layout you 
+    apply display flex to the parent element of the element
+    you want to lay out all the direct children of the element
+    become flex items 
+*/

@@ -1,0 +1,39 @@
+.wrapper {
+  width: 600px;
+  border: 5px solid rebeccapurple;
+}
+
+.px {
+  width: 200px;
+  border: 5px solid green;
+}
+
+.percent {
+  width: 80%;
+  border: 5px solid orange;
+}
+
+.test {
+  width: 250px;
+  height: 100px;
+  border: 5px solid blue;
+}
+
+/* 
+
+So here we are learning the difference between px and
+percentages the first thing that we need to know is that 
+we created a div called wrapper and and its set to 400px 
+when it comes to px we set the width to 200px when it comes 
+to percentage we set the width to 40% 
+
+So here there was a crucial mistake that I was making in 
+understanding so one of the box was set to 200px wide and 
+the percentage was set to 80% when it came to px it was 
+set to 200px so they were going to hold their shape and when 
+it came to percentage its important to understand that 80% 
+refers to the screen window size and the div width so one is 
+looking at the width of the screen and the other is looking 
+at the width of the container
+
+*/

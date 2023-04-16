@@ -1,0 +1,15 @@
+h1 + p {
+  font-weight: bold;
+  background-color: #333;
+  color: #fff;
+  padding: 0.5em;
+}
+
+/* So the first thing that I learned here is that I used to think 
+that the article was a sectional place that we were going to be 
+holding out rather that is not the case now the best way to 
+describe what is going on is the word adjacent meaning notice that 
+we have h1 then p this means that the first p tag that is after 
+the h1 tag we want this done say if we put an h2 tag before the p tag 
+then its not going to work that is something to take into consideration 
+here */

@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+}
+
+/* Something new that I learned is that this is known as reset
+stylesheet which strips the whole browser of styling this will be 
+making global changes */
+
+article :first-child {
+  font-weight: bold;
+}
+
+/* So here lets examine what is going on the first thing that 
+we need to know is that this is different from  
+
+article::first-letter{
+    
+}
+
+The mistake that I made was thinking that they are the same thing 
+instead what you need to know is that the article :first-child is 
+basically saying the descendent of the article and the other is more 
+like properties of the article that is something crucial to understand
+
+*/
+
+article *:first-child {
+  font-weight: bold;
+}
+
+/* To avoid the confusion what we can do is use this way of writing 
+it makes it more easier to understand */

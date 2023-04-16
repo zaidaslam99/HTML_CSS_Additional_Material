@@ -1,0 +1,29 @@
+.box {
+  background-image: url(./small_png.png), url(./duck_image.png);
+  border: 5px solid red;
+  width: 1000px;
+  height: 1000px;
+  margin: 5px;
+  background-position: 20px 20px;
+  background-repeat: repeat;
+  background-attachment: local;
+}
+
+.wrapper {
+  border: 5px solid black;
+}
+
+/* So here we are learning about adding multiple images in the 
+background that is the first thing that we are going to be starting 
+with here the second is that we can also adjust the background position 
+here we can change the repeat status so we can make elements repeat 
+either x y or round etc 
+something new that we are learning here is this background attachment and 
+what it does is that it changes the visual dynamics so when you scroll the 
+images move or stay fixed that is up to the effect of it. 
+
+* Something else that I wanted to mention here is this that we are doing 
+all this on an empty div that we created that is an important point to understand 
+the logic of it falls to a separate section that we create and we 
+can do all these effects on.
+*/

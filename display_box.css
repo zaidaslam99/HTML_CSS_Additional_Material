@@ -1,0 +1,29 @@
+p,
+ul {
+  border: 5px solid red;
+  padding: 0.5em;
+}
+
+.block,
+li {
+  border: 5px solid green;
+  padding: 0.5em;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.block {
+  display: block;
+}
+
+/* So this is probably the most important one that I have written we 
+are going to be talking about positioning here the first thing that we 
+need to know is that we want the unordered list container and p container 
+to be a red box and when it comes to .block and li we want them to be green 
+notice the .block is going to be our span which is going to be green same 
+goes for li when we say display flex it means that yo flex them one to another 
+meaning that flex means file tabs and when it comes to block we are saying 
+that hey stack a block on top of another      */

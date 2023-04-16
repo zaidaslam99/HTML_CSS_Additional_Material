@@ -1,0 +1,26 @@
+.box {
+  border: 5px solid darkblue;
+  width: 10vw;
+  height: 20vh;
+  font-size: 10vh;
+}
+
+/* 
+
+General notes when it comes to viewport it is a visible area 
+of the page in the browser you are using to view the site 
+in css there are units that relate to the size of the viewport
+the vw is viewport width and vh is viewport height using 
+this you can size something relative to the viewport
+
+1vh is 1% of the viewport height
+1vw is 1% of the viewport width
+
+So here I learned something new we set a container with a 
+viewport width and height in vw and vh when it came to the 
+container we changed the font size to vh to 10 so now it shows 
+us that the container is 20 vh of the viewport and the 
+font size is 10vw 
+
+
+*/

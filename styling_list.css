@@ -1,0 +1,50 @@
+/* General styles */
+
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  background-color: antiquewhite;
+}
+
+h2 {
+  font-size: 2rem;
+  background-color: aqua;
+}
+
+ul,
+ol,
+dl,
+p {
+  font-size: 1.5rem;
+  background-color: green;
+}
+
+li,
+p {
+  line-height: 1.5;
+  background-color: purple;
+}
+
+/* Description list styles */
+
+dd,
+dt {
+  line-height: 1.5;
+  background-color: pink;
+}
+
+dt {
+  font-weight: bold;
+  background-color: yellow;
+}
+
+/* 
+
+So there was something new that I learned was that when it comes 
+to line height all it does is that it brings the table down so 
+that its not to close really all there is and that is used when 
+it comes to styling the other thing that we need to know here is that 
+dd and dt they are basically the header and the definition all there 
+really is.
+
+*/

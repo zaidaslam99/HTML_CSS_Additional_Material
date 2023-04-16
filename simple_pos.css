@@ -1,0 +1,22 @@
+body {
+  width: 500px;
+  margin: 0 auto;
+}
+
+p {
+  background-color: rgb(207, 232, 220);
+  border: 2px solid rgb(79, 185, 227);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+/* 
+    Static positioning is the default that every element gets 
+    it just means that put the element into its normal position
+    in the document layout flow
+
+    Something else that was new to this code is that we can 
+    use margin 0 auto and what this does is that it centers 
+    out the container that we created
+*/

@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+}
+
+ol > li[class="a"] {
+  background-color: red;
+}
+
+/* So we are using the ordered list and then the li with class 
+a and we are changing that to background red */

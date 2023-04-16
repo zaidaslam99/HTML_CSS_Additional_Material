@@ -1,0 +1,14 @@
+.box {
+  border: 1px solid #333333;
+  width: 200px;
+  height: 100px;
+  overflow-y: scroll;
+}
+
+/* 
+
+This is doing the same thing here the only thing that we need 
+to know is that we can specify the direction of the scroll and 
+in this case we are using y axis 
+
+*/

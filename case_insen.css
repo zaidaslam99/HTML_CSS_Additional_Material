@@ -1,0 +1,14 @@
+li[class^="a"] {
+  background-color: yellow;
+}
+
+li[class^="a" i] {
+  color: red;
+}
+
+/* So here the thing that we are learning about is case 
+insensitivity notice the first one we are saying that hey 
+if the class start with a then background color should be 
+yellow the second one we said that it can be A or a in the 
+first one we are saying only a and all that is possible because
+of the i */

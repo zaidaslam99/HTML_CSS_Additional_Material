@@ -1,0 +1,15 @@
+.box::before {
+  content: "This should show before the other content ";
+  background-color: yellow;
+}
+
+.box::after {
+  content: " ➥";
+  background-color: red;
+}
+
+/* So here lets examine what is going on the first thing that 
+we are going to be doing is we created a p tag with the class 
+of box and before what we did was we wrote some text and the 
+background color is set to yellow and after we are going to be 
+putting a symbol and the background color is set to red  */

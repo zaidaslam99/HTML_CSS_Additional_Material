@@ -1,0 +1,41 @@
+.box {
+  inline-size: 150px;
+}
+
+.horizontal {
+  writing-mode: horizontal-tb;
+  border: 5px solid red;
+  margin: 5px;
+}
+
+.vertical {
+  writing-mode: vertical-rl;
+  border: 5px solid green;
+  margin: 5px;
+}
+
+.wrapper {
+  border: 5px solid purple;
+}
+
+/* Something that I learned here is overflow and its really a 
+simple concept first thing that we need to understand here is 
+that we are going to be making a container and then what we are 
+going to be doing is putting the text within the container and 
+if the width of the container is really small then we are going to 
+be having an overflow problem  
+
+* So there is something that we learned here and that is called 
+inline size it refers to the size of the inline dimensions the property 
+for height is named block size and its the size in the block direction
+
+* So you might be wondering why is this important and the answer to 
+that is really simple when we increase width it does it for the 
+horizontal box not the vertical so we use this default parameter called 
+inline size so we dont go by naming convention rather we go by the 
+basic metrics so it does it regardless cuz inline refers to inline 
+side while width would be see as the width side 
+
+* This is the difference between logical properties and physical 
+properties 
+*/

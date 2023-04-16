@@ -1,0 +1,25 @@
+@media (min-width: 50em) {
+  @layer site;
+}
+
+@layer page {
+  h1 {
+    text-decoration: overline;
+    color: red;
+  }
+}
+
+@layer site {
+  h1 {
+    text-decoration: underline;
+    color: green;
+  }
+}
+
+/* SO i see what they are doing now the first being we set the 
+media to min-width to 50em and we chose the layer site and this 
+case its going to be the green so when the screen changes to the 
+smaller portion then its going to be green and when bigger its going 
+to be red the one thing that I learned here is that we used the 
+use of layers to preset a value and then media query to set the 
+screen width and once doing so we changed it to the layer  */

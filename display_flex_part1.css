@@ -1,0 +1,59 @@
+.wrapper {
+  display: flex;
+  border: 5px solid gold;
+}
+
+.wrapper > div {
+  flex: 1;
+}
+
+.box1 {
+  border: 3px solid black;
+  width: 100px;
+  height: 25px;
+  background-color: aqua;
+  color: black;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.box2 {
+  border: 3px solid black;
+  width: 100px;
+  height: 25px;
+  background-color: blueviolet;
+  color: black;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.box3 {
+  border: 3px solid black;
+  width: 100px;
+  height: 25px;
+  background-color: red;
+  color: black;
+  font-weight: bold;
+  padding: 5px;
+}
+
+/* 
+    So here in addition to properties that can be applied 
+    to flex container there are also properties that can 
+    be applied to flex items these items change in way 
+    that item flex enabling them to expand or contract 
+    according to space 
+*/
+
+/* 
+    Something that I learned is that is that when we do 
+    flex: 1 what this means it expands the inner container
+    so that they take the same amount of space in the 
+    outer container otherwise its not going to take that 
+    space that is something to be aware of here something 
+    that I wanted to cover here is that if you change the 
+    number to 2 or 3 its still going to behave the same 
+    way as suppose of not and another thing that we are 
+    doing is .wrapper > div this means target all the div 
+    that are after the .wrapper class the child elements 
+*/

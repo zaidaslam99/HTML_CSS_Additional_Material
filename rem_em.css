@@ -1,0 +1,35 @@
+html {
+  font-size: 16px;
+}
+
+.ems li {
+  font-size: 1.3em;
+  border: 3px solid red;
+}
+
+.rems li {
+  font-size: 1.3rem;
+  border: 3px solid green;
+}
+
+/* 
+
+em and rem are two relative lengths we encounter when sizing 
+boxes to text as you can see we set the font size to 16px 
+using our html em means my parent element font size the elements 
+that are within em take their sizing from the parent so each level 
+of nesting gets larger since we set to 1.3em this means that we 
+want each level to get larger 1.3 times the font size rem on the 
+other hand stands for root em which takes their sizing from the 
+root element this means that each successive level of nesting 
+does not get larger
+
+That was something new that I learned and it makes sense to 
+because we said that hey each em li should be 1.3em and thats 
+why we start with 16px the cool thing here is that rem doesn't
+follow that rule because it takes font size from root element
+overall this explains the concept so much better of rem and em 
+and how one is absolute vs relative.
+
+
+*/

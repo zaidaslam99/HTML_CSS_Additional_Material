@@ -1,0 +1,24 @@
+li[class] {
+  font-size: 200%;
+}
+
+li[class="a"] {
+  background-color: yellow;
+}
+
+li[class~="a"] {
+  color: red;
+}
+
+/* So here we learned something cool and that being 
+we can select this using this new style so here we 
+are accessing the li and in it in the first we access 
+the class and this is going to be accessing everything that 
+has a class the second one we are saying hey if the class is 
+a and in this case its going to be item 2 because that is what 
+we are targeting the matilda and this is going to be 
+targeting everything with an a notice how a b are in item 3 
+its also going to be targeting that a that is something to be 
+aware of here as well when it comes to the last item 4 its 
+going to be not going to be targeting ab since its not equal to a 
+     */

@@ -1,0 +1,54 @@
+.box {
+  width: 300px;
+  border: 3px solid green;
+  margin: 5px;
+}
+
+.minibox {
+  width: 25px;
+  border: 3px solid red;
+  margin: 5px;
+}
+
+.width {
+  width: 100%;
+  border: 2px dashed blue;
+}
+
+.max {
+  max-width: 100%;
+  border: 2px dashed purple;
+}
+
+.wrapper {
+  border: 3px solid black;
+}
+
+/*  
+
+A common use of max-width is to cause images to scale down 
+if there is not enough space to display them at their intrinsic 
+width. So if you set width to 100% of an image and its 
+intrinsic width is less than its container the image will be 
+forced to be stretched and become larger causing it to look 
+pixaled in size. By using mad-width, you can bypass this and 
+it will automatically scale down the image. 
+
+
+So here its important to understand the first two containers 
+are both 300px wide something that I failed to notice and 
+understand was that we are using width and max-width the 
+thing that we need to take into account here is when using 
+percentage width this is being used for different class 
+of the container that we had created why? well box class is 
+used to size the container while width and max was used 
+to size the image and it goes back to the saying that max-width 
+is saying if you use this instead and its intrinsic width is 
+smaller then its container the image will not be forced to 
+stretch
+
+Something that we need to take into account here is that 
+max-width is used to force the image to fit in the container 
+neatly
+
+*/

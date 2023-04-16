@@ -1,0 +1,27 @@
+.box::before {
+  content: "BOX 1";
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: rebeccapurple;
+  border: 1px solid black;
+}
+
+.box::after {
+  content: "BOX 2";
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 1px solid black;
+}
+
+/* So this is known as generated content where we use content 
+and ::before ::after */
+
+/* So we understand that when it comes to working with before 
+and after its going to happen after element set directions the 
+thing that we need to take into account is this the document flow 
+notice how we created the box and one box is before the words 
+and one is after this also shows us how the document is being laid 
+out as we create these boxes */

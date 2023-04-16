@@ -1,0 +1,29 @@
+blockquote {
+  background-color: red;
+  border: 2px solid green;
+}
+
+.fix-this {
+  all: unset;
+}
+
+/* blockquote {
+  all: unset;
+} */
+
+/* The css shorthand all can be used to apply one of these 
+inheritance values to almost all properties at once so here 
+lets examine things in more detail the first important point 
+that we need to understand is that whatever changes we do in 
+blockquote is going to be happening to all the blockquote and 
+when it comes to .fix-this we need to understand that when it 
+comes to all this means that hey this applies to everything 
+keep in mind this does not mean for the blockquote element itself 
+rather it means for the container that we are working with. 
+
+Notice we set all to unset for blockquote and .fix-this what this 
+means is applies to everything but .fix this refers to class 
+important to understand my mistake that I made was thinking that 
+all unset was changing everything for everything rather that is not 
+the case 
+*/

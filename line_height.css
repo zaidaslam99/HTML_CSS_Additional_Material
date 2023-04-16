@@ -1,0 +1,29 @@
+html {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 5rem;
+  text-transform: capitalize;
+  text-shadow: 50px 50px 50px red, 50px 50px 50px green;
+  text-align: center;
+}
+
+h1 + p {
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.5rem;
+  color: red;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 20;
+}
+
+/* 
+
+So here I learned something we can specify more than one font 
+shadow and line height is basically going to separate each lines
+there. 
+
+*/

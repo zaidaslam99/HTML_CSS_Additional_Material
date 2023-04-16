@@ -1,0 +1,40 @@
+.positioned {
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+
+body {
+  width: 500px;
+  margin: 0 auto;
+}
+
+p {
+  background-color: rgb(207, 232, 220);
+  border: 2px solid rgb(79, 185, 227);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+/* 
+    Relative positioning allows you to modify the element 
+    position on the page moving it relative to its position 
+    in normal flow as well as making it overlap other elements
+    in page. 
+
+    relative positioning allows you to offset an item from 
+    its default position in normal flow this means that you can 
+    achieve a task such as moving an icon down a bit so it lines 
+    up with the text label notice that the positioned class we 
+    are giving a position value of relative notice we also 
+    give it a top and left position this moves the container 
+    down to the left and to the right something interesting to 
+    learn here is that this might seem opposite to what you 
+    are expecting but imagine the element being pushed on its 
+    left and top sides which results in moving right and down
+
+    relative so basically means that hey want want to position 
+    it in a way where its different from the document flow
+
+*/

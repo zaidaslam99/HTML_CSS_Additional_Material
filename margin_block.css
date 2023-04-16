@@ -1,0 +1,42 @@
+.box {
+  inline-size: 200px;
+  writing-mode: vertical-rl;
+}
+
+.logical {
+  margin-block-start: 20px;
+  padding-inline-end: 2em;
+  padding-block-start: 2px;
+  border-block-start: 5px solid pink;
+  border-inline-end: 10px dotted rebeccapurple;
+  border-block-end: 1em double orange;
+  border-inline-start: 1px solid black;
+}
+
+.physical {
+  margin-top: 20px;
+  padding-right: 2em;
+  padding-top: 2px;
+  border-top: 5px solid pink;
+  border-right: 10px dotted rebeccapurple;
+  border-bottom: 1em double orange;
+  border-left: 1px solid black;
+}
+
+h2 {
+  border-bottom: 5px solid black;
+}
+
+/* So here we learned that margin top is the same as margin block start 
+we then learned padding inline end is the same as padding right then 
+padding block start is the same as padding top and block start border top 
+inline end is border right border block end is border bottom and inline 
+start is border left 
+
+* SO important to understand that physical properties stayed tied to their 
+physical direction and logical switch the best way to think of it is 
+that physical is more so of case sensitive meaning that its bound to change 
+while logical is more so of structured no matter change its not going to be 
+breaking its structure
+
+*/

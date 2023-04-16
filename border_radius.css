@@ -1,0 +1,16 @@
+.box {
+  border: 10px solid rebeccapurple;
+  border-radius: 1em;
+  border-top-right-radius: 1% 40%;
+}
+
+/* two length or percentages may be used as a value the first 
+value defining the horizontal radius and the second defining the 
+vertical radius so what this means is that the horizontal line
+followed by the vertical line
+
+* So the thing we need to know when it comes to working with 
+the border not only can we add the border radius which makes the 
+border beveled in a way rather what we can also target is a 
+specific corner to add a better effect to it
+*/

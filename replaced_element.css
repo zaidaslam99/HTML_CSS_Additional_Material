@@ -1,0 +1,48 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  gap: 20px;
+  border: 5px solid green;
+}
+
+.wrapper > div {
+  background-color: white;
+  border-radius: 0.5em;
+  border: 5px solid blue;
+  margin: 5px;
+}
+
+img {
+  border: 5px solid red;
+  margin: 5px;
+
+  /* Force Image to stretch */
+  width: 100%;
+  height: 100%;
+}
+
+/* 
+
+So here we are learning something new the first thing that 
+we need to take into account is that we have an outer box and 
+inside the box we have 4 boxes there are 3 div and then there
+is an image box inside the box
+
+So here we are learning about flex or grid layout where elements 
+are stretched by default to fill the entire area images will 
+not be stretched instead will be assigned the start of the 
+grid area or flex container what I think this code is going 
+to be teaching is how we can create different boxes and 
+notice how the div boxes are stretched to fill the container
+but the image box is half the size  that is something that I 
+didn't really notice
+
+So notice what we did here what we did was that we wanted to 
+stretch the image so we changed the width and the height
+to 100% this will expand the image to fill the container
+
+
+
+
+*/

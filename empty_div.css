@@ -1,0 +1,13 @@
+.box {
+  border: 5px solid darkblue;
+}
+
+/* 
+
+THis was something that I noticed and that being the empty div 
+had no size the width and height of the container had to be 
+put as compared to the image which had a natural size 
+
+intrinstic size is the size defined by the content
+
+*/

@@ -1,0 +1,21 @@
+#winning {
+  background-color: red;
+  border: 10px solid black;
+}
+
+.better {
+  background-color: gray;
+  border: none !important;
+}
+
+p {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+}
+
+/* So notice when it comes to working with important 
+what this appears to be doing is changing the border of 
+all the id and class that is something to be wary of here 
+so the border that is on the class is going to be disappearing
+as well */

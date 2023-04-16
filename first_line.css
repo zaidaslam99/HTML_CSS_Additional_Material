@@ -1,0 +1,24 @@
+article h2::first-line {
+  background-color: red;
+}
+
+/* I finally understand what it means by pseudo element and the 
+answer to them is really simple so the thing that we need to know 
+here is that notice how we created the two p tag and what we are
+going to be doing is using the first line on each of them regardless
+if the numbers of words increase or decrease that is something to be 
+aware of here. */
+
+article p:first-child::first-line {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+/* So the important thing to understand here is simple that notice 
+in the first one all we are doing is that we are using the h2 and we 
+are saying that hey the first line should be red so it does that for all the
+h2 when it comes to the second one we said that hey do this for 
+all the p tag and there is an important point to understand that we are 
+using p: single colon when we are using double other wise we are using 
+h2:: double colon that is something else that we need to be aware of here.
+ */

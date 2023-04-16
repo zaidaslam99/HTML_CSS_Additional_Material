@@ -1,0 +1,23 @@
+.container {
+  border: 5px solid blue;
+}
+
+.one {
+  border: 5px solid purple;
+  background-color: gray;
+  margin-bottom: 20px;
+}
+
+.two {
+  border: 5px solid purple;
+  background-color: gray;
+  margin-top: 10px;
+}
+
+/* So here the mistake that I made was not looking where the margin is 
+being put here fun fact the size of the margin is going to be affected 
+depending on the positioning of the container and their respected margin 
+so lets take a look here on one we said margin bottom and on two we said 
+top so this is kind of like the logic when it comes to conditional statements 
+here where and or operators so that why the affect is taking place but it
+wont show container wise */

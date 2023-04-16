@@ -1,0 +1,10 @@
+article p:first-child {
+  font-size: 120%;
+  font-weight: bold;
+  background-color: red;
+}
+
+/* So this is the use of first child and this is simple its going 
+to be targeting the first child of p the advantage of doing this 
+is that instead of having to edit our html we can just call this and 
+its going to do that  */

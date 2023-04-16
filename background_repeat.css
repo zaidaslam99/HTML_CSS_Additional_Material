@@ -1,0 +1,14 @@
+.box {
+  background-image: url(./small_png.png);
+  background-repeat: repeat-x;
+  border: 5px solid red;
+  width: 1000px;
+  height: 600px;
+}
+
+/* what we did was that we created a div and in it we passed 
+a class of box the important note is we put a picture here 
+really all that we need to know is background repeat is used 
+for image that are set on the div that was something that I had 
+forgotten and all the different repeats are the way we want the 
+image to take into affect here */

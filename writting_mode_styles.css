@@ -1,0 +1,34 @@
+.horizontal {
+  writing-mode: horizontal-tb;
+}
+
+.vertical {
+  writing-mode: vertical-rl;
+}
+
+.wrapper {
+  border: 5px solid red;
+}
+
+.horizontal {
+  border: 5px solid green;
+  margin: 5px;
+  padding: 5px;
+}
+
+.vertical {
+  border: 5px solid blue;
+  margin: 5px;
+  padding: 5px;
+}
+
+/* So here its really simple to understand but there is this 
+thing called writing-mode and the thing that we need to take 
+away from here is simple that its the direction that we are going 
+to be writing in this case its going to be horizontal in 
+the first and vertical in the second  */
+
+/* Something else that we learned when it comes to horizontal the 
+thing that we need to take away from here is inline is the width and 
+block is the height and when it comes to the other way around since width 
+and height switch so does block and inline that is something to be aware of here */

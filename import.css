@@ -1,0 +1,27 @@
+@import url("components-lib.css") layer(components);
+@import url("dialog.css") layer(components.dialog);
+@import url("marketing.css") layer();
+
+/* 
+* General notes when it comes to import the import rule allows the user to import 
+style rules from other style sheet either directly into a CSS file or into a 
+style element when importing stylesheet the import statement must be defined before any 
+css styles within the stylesheet or style block  
+
+* So here notice that we are importing url and then we are importing a layer called 
+components something that I learned was that when it comes url it calling this a 
+layer as well that is something to be wary of here.
+
+* so that this means is we are importing the css file components-lib into the layer 
+components if that file contains any layers named or not those layer become nested 
+layers within the components layers
+
+*/
+
+@import url(comments.css) layer(social);
+@import url(sm-icons.css) layer(social);
+
+/*  
+    * This will import two layers and then put it in social notice that we are also importing 
+    aspects of css as well 
+*/

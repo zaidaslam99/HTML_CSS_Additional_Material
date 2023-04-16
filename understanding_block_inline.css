@@ -1,0 +1,70 @@
+p {
+  border: 5px solid red;
+}
+
+ul {
+  border: 5px solid green;
+}
+
+li {
+  border: 5px solid blue;
+  display: inline-block;
+}
+
+/* 
+
+    So my observation when transforming the display from 
+    inline to block is that it causes the boxes to be
+    displayed more tighter and close knit to each other
+*/
+
+/* 
+
+    So here the thing that we need to take away is that 
+    the view of the layout meaning that they are 
+    going to be showing up in block levels the example 
+    that we did shows us how the p tag is treated as a 
+    block element. When it comes to the ul its then treated 
+    as a block element and then the li elements are within 
+    the ul and treated as a block element.
+
+    So this is a little recap of everything display property 
+    have values such as block inline or inline-block can 
+    change how elements behave in normal flow. If you make a
+    block element behave line an inline element something to 
+    know is that CSS grid and flexbox alter how child elements are
+    are laid out inside their parent.
+
+    Really so the thing that we need to know is that document 
+    starts off as block and behave that way we can alter them 
+    and flexbox and CSS grid alter how child elements behave
+
+    floats applying a float value such as left can cause block 
+    level elements to wrap one side of an element like the way 
+    images have text floating around them
+
+    position property allows you to control the placement of 
+    boxes within boxes  static positioning is the default in
+    normal flow but you can cause elements to be laid out 
+    differently using other values 
+
+    Table layout features designed for styling parts of an 
+    html page can be used on non-table elements using display
+    table property
+
+    multi-column layout properties can cause the content 
+    of a block to layout in columns
+
+*/
+
+/* 
+
+    Notes about flexbox flexbox is a short name for the 
+    flexible box layout designed to make it easier for us 
+    to lay things in one direction either as rows or as 
+    columns. display: flex to the parent element of 
+    the element you want to lay out all the children of
+    parent become flex items.
+
+
+*/

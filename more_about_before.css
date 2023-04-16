@@ -1,0 +1,30 @@
+a {
+  color: #0000ff;
+  text-decoration: none;
+}
+
+a::before {
+  content: "🔗";
+}
+
+.local-link::before {
+  content: url("../../media/examples/firefox-logo.svg");
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+/*  
+
+So here we are learning more about the ::before and it makes 
+sense all we are doing is that we are putting what we want 
+::before into the body of the {} block something else that 
+we learned here is that we can also use ::before when it 
+comes to class 
+
+When it comes to making a container when we use ::before or 
+::after its going to show within the container that is something 
+to be aware of here
+
+*/

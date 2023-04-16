@@ -1,0 +1,52 @@
+body {
+  width: 300px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  border: 5px solid green;
+}
+
+p {
+  line-height: 1.4;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: #265301;
+}
+
+a:visited {
+  color: #437a16;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  background: #bae498;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  background: blue;
+}
+
+a:active {
+  background: #265301;
+  color: #cdfeaa;
+}
+
+/* 
+
+    The order is important because link styles build 
+    on top of one another. The styles in the first rule 
+    will apply to all the styles when a link is activated 
+    it is usually hovered over. Something important that 
+    I understood here is that the a:link then its a:visited 
+    then a:focus then a:hover then a:active. It has to be 
+    in this order.
+
+*/

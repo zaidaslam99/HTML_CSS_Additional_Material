@@ -1,0 +1,17 @@
+.box {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  background-color: cyan;
+  border: 2px solid blue;
+}
+
+/* 
+    So here we are learning about float and the thing that 
+    we need to know here is that notice that we are using 
+    float and the direction where we want the container 
+    to float to and something else that I learned was that 
+    we can use margin-right and margin-left to indicate that
+    the distance between the container and the words
+*/

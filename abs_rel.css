@@ -1,0 +1,26 @@
+.wrapper {
+  font-size: 1em;
+  border: 5px solid red;
+}
+
+.px {
+  width: 200px;
+  border: 5px solid green;
+}
+
+.vw {
+  width: 10vw;
+  border: 5px solid yellow;
+}
+
+.em {
+  width: 10em;
+  border: 5px solid orange;
+}
+
+/* 
+
+So here we learned about absolute and relative data types 
+abs hold their shape regardless and relative change
+
+*/

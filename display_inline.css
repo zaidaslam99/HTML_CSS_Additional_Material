@@ -1,0 +1,43 @@
+p,
+ul {
+  border: 5px solid red;
+}
+
+span,
+li {
+  border: 5px solid green;
+}
+
+ul {
+  display: inline-flex;
+  list-style: none;
+  padding: 0;
+}
+
+.inline {
+  display: inline;
+}
+
+/* 
+
+* So the very first thing that we need to know is that we are 
+going to be using the p and ul so what this is going to do is 
+create a  border around these tags when it comes to span and li 
+its important to understand that they are going to be containers 
+within the big containers.
+
+* The biggest thing that we are learning is the difference between 
+inline and inline flex when it comes to flex its going to stack each 
+box next to each other and when it comes to inline-flex the best 
+way to understand this positioning is the parent container is going to 
+be stacked within a line and flex together something I learned when it 
+comes to inline is that the different p tags are going be using inline 
+because they are separate containers by them self when it comes to 
+inline flex we are saying hey flex the inner container and also put them 
+inline the reason why we are using inline flex over inline is understand 
+that are their containers within containers that usually means we gotta 
+stack the internal container then the outer containers. So inline is going 
+to style it on the same line and inline flex is reserved for container within 
+the containers
+
+*/

@@ -1,0 +1,46 @@
+.box {
+  width: 400px;
+  padding: 1em;
+  border-radius: 0.5em;
+  border: 5px solid rebeccapurple;
+  background-color: white;
+  color: green;
+  font-weight: bold;
+}
+
+.box::before {
+  content: "This is the before content ";
+  color: black;
+  font-weight: bold;
+}
+
+.box::after {
+  content: " This is the after content ";
+  color: red;
+  font-weight: bold;
+}
+
+/* 
+
+colors like red and blue etc are called identifiers
+
+Something that we need to know is that we are working with a 
+div that has the class called box and in that box what we are 
+doing is we are running ::before and ::after what I learned 
+while doing this is that we are shifting our content within
+the box that we are working with for before this will show 
+up in the box first and then the after the mistake that I made 
+was thinking that the words are going to be coming before the 
+box and then after the box rather its going to show up in the 
+box that we created.
+
+When it comes to before and after the thing that we need to 
+know when it comes to html portion its going to work that way 
+where its going to show up before or after. 
+
+So to recap this is similar to what we were talking about how 
+the content goes in the middle and then content goes at end since 
+we didn't have content it gave the idea that its going in the middle 
+when it was but if there was content then it would go around it
+
+*/

@@ -1,0 +1,19 @@
+.box {
+  border: 1px solid #333333;
+  width: 200px;
+  height: 100px;
+  overflow: auto;
+}
+
+/* 
+
+So here lets talk about overflow auto and the thing that we 
+need to take away from here is that when the text starts to 
+decrease then the scroll is going to end up going away that is 
+something to be aware of here 
+
+when using overflow such as scroll or auto you create a block 
+formatting context its basically this effect that makes it easier 
+to read
+
+*/

@@ -1,0 +1,30 @@
+.box {
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.cover {
+  object-fit: cover;
+}
+
+.contain {
+  object-fit: contain;
+}
+
+/* 
+
+So here we learned about contain and cover something that 
+I wanted to add here is that cover is going to cover the 
+container that we had created and contain is going 
+to fit the image to the container where its called letterbox
+where its the same aspect ratio of the container
+
+*/

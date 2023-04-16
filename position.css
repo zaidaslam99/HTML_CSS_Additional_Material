@@ -1,0 +1,23 @@
+.box {
+  height: 300px;
+  width: 400px;
+  background-image: url(./small_png.png);
+  background-repeat: no-repeat;
+  background-position: left 10px;
+  border: 5px solid black;
+}
+
+/* 
+
+The position values represents a 2D coordinates used 
+to position an item such as the background image it takes
+keywords such as top left bottom right center a typical 
+position consist of two values the first sets the position 
+horizontally and second vertically if you specify only for 
+one axis then the other is set to center so here we are 
+positioning to left and then 20px  
+
+This was something new that I learned here when it comes to 
+the two directions that are used to position
+
+*/

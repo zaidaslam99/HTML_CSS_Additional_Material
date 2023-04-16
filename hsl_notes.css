@@ -1,0 +1,21 @@
+.one {
+  background-color: hsl(188 97% 28% / 0.3);
+  border: 3px solid black;
+}
+
+.two {
+  background-color: hsl(321 47% 57% / 0.7);
+  border: 3px solid black;
+}
+
+.three {
+  background-color: hsl(174 77% 31% / 0.9);
+  border: 3px solid black;
+}
+
+/* 
+
+Here there is something that was somewhat new when it 
+comes to opacity we can use / opacity instead
+
+*/

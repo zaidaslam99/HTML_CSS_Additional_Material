@@ -1,0 +1,14 @@
+.box {
+  border: 5px solid darkblue;
+  width: 50%;
+  padding: 5px;
+}
+
+/* 
+
+Something to put here is that if we didnt put any percentage
+then what is going to happen is that its going to be taking 
+the volume of the entire page because that is going to act 
+as the parent container
+
+*/

@@ -1,0 +1,25 @@
+@layer site, page;
+
+@layer page {
+  h1 {
+    text-decoration: overline;
+    color: red;
+  }
+}
+
+@layer site {
+  h1 {
+    text-decoration: underline;
+    color: green;
+  }
+}
+
+/* important to know we created page layer and that has overline 
+and red when it comes to site it has underline and green now the 
+thing that I learned was that its running the second layer that is 
+something to be aware of here had I switched the layer around its 
+going to be doing the same thing as far as the layer site and page 
+at the top  what it does is that it switches the order of the 
+layer so now its going to be second the red while green is going 
+to be first that is why its running My theory is to precedence 
+that may be to play here */

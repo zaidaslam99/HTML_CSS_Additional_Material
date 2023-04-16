@@ -1,0 +1,6 @@
+h1 {
+  writing-mode: vertical-rl;
+}
+
+/* Writing mode refers to whether the text is running horizontally 
+or vertically writing mode lets us switch from one mode to another  */

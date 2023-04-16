@@ -1,0 +1,34 @@
+.box {
+  inline-size: 200px;
+  writing-mode: horizontal-tb;
+  border: 5px solid red;
+}
+
+img {
+  float: inline-end;
+  margin-inline-end: 30px;
+  margin-block-end: 30px;
+  border: 5px solid green;
+}
+
+/* 
+
+So we talked about top bottom right bottom left they also have 
+their respected logical values block-start inline-end block-end
+and inline-start for example you can float an image left to cause 
+text to wrap around the image you can replace left with inline 
+start  
+
+Something that we need to also  make sure is that when it comes 
+to inline-size this is the dynamics of the size of the image. 
+Now instead of controlling width and height dynamically what we 
+do instead is to control it using aspect ratio of inline-size 
+which is important.
+
+Something else that we are going to be talking about is the 
+writing mode and what this means is that in which direction that 
+we need to write in horizontal-tb this dictates the inline 
+size of the text if we change to vertical-tb this will flip the 
+square here.
+
+*/

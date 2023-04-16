@@ -1,0 +1,19 @@
+.box {
+  border: 5px solid darkblue;
+  min-height: 150px;
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* 
+
+Something important to understand when it comes to min-height
+is that that the starting height meaning it can get bigger 
+than this. The cool thing about here is that the box is going 
+to be getting bigger or smaller depending on the content 
+and this help with overflow as well so when we need to make the 
+box bigger we can as long as we say yo this should not go smaller 
+than the starting height
+
+*/

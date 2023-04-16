@@ -1,0 +1,30 @@
+.box {
+  border: 5px solid red;
+  width: 200px;
+  height: 100px;
+}
+
+.word {
+  border: 5px solid green;
+  width: 100px;
+  font-size: 250%;
+}
+
+/* 
+
+So here we are talking about overflow overflow happens when 
+there is to much content to fit in a box css tries to avoid 
+data loss something cool about this here is that data loss is 
+basically when data leaks from the box that we created fancy term 
+for it  
+
+Here in the second one we need to know that we created a box 
+and all we did was increased the font size and the width of the box
+is small therefore we are going to be having overflow 
+
+CSS does not hide overflow its going to cause data loss so for 
+example if the people see a website and see a submit button that 
+disappears then no one can complete the form
+
+
+*/

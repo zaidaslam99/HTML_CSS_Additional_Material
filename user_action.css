@@ -1,0 +1,24 @@
+a:link,
+a:visited {
+  color: rebeccapurple;
+  font-weight: bold;
+  font-size: 200px;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+/* These are user action pesudo class sometimes referred to as 
+dynamic pseduo class act as if class had been added to the element
+when the user interacts  */
+
+/* :hover mentioned above this only applies if the user moves their 
+pointer over an element */
+
+/* Something that I learned when it comes to this code is that 
+notice that we said a:link and a:visited the thing that we need 
+to take away from here is that we stated where and in this case its 
+the a tag and not only that we want the link within the a tag 
+and what we are going to be doing is changing the color to purple 
+and fontweight bold  */

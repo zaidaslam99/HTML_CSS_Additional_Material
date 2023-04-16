@@ -1,0 +1,33 @@
+body {
+  background-color: #fff;
+  color: #333;
+  font: 1.2em;
+  padding: 1em;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+  width: 300px;
+}
+
+td,
+th {
+  padding: 0.2em;
+  text-align: left;
+}
+
+td {
+  background-color: #333;
+}
+
+/* So here the first mistake that I did was that I had used a 
+link:css instead of a link to get the text underlined the second 
+something else that we learned was box-sizing and we changed it 
+to border-box the thing that we need to know here is that border 
+box means that we want the content not to extend the length of the 
+box  */

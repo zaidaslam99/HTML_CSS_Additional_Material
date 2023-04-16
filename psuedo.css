@@ -1,0 +1,11 @@
+.first {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+/* A psuedo class is a selector that selects elements
+that are in a specific state they are the first element 
+of their type or are being hovered over by a mouse or 
+a pointer they tend to act as if you had applied a class 
+to some part of your doc often helping you cut down on 
+excess class in your markup and giving more better code */

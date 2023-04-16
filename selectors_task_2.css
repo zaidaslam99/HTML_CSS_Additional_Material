@@ -1,0 +1,21 @@
+.gray {
+  border: 1px solid gray;
+}
+
+.gray.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+/* So here the most important thing that I learned was the power 
+of using multiple classes notice we created default class and then 
+what we did was we gave it a background default value and then we
+gave it the primary value it was very easy to user that was something 
+cool that I learned when it came to this code. */

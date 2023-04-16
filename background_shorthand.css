@@ -1,0 +1,33 @@
+.box {
+  background: linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.2) 39%,
+        rgba(51, 56, 57, 1) 96%
+      )
+      center center/ 200px 200px repeat,
+    url(./small_png.png) center no-repeat, green;
+
+  width: 500px;
+  height: 500px;
+  border: 5px solid black;
+}
+
+/* So here there are a lot of important things to understand here
+the first being that we can do so much using the div that we already 
+covered now you can write it all together so the first thing that we 
+need to understand here is that we can have different linear gradient 
+effects meaning in this we have two different linear gradient effects 
+now you can see we have center / center the first center is going to 
+be referring to the first linear gradient effect and the second center 
+is going to refer to the second linear gradient effect when it comes to 
+after the / thats for the second inner container which is made because 
+of the 200px 200px and set to repeat now lastly when it comes to the 
+url this is going to be doing the styling for all this container 
+when it comes to the color its the classical putting the color infront of 
+the image to make it nicer effect 
+
+* So the cool thing that we need to know here is that 
+not only can we use two different rgba colors rather we can also 
+do a different effect on them as well 
+
+*/

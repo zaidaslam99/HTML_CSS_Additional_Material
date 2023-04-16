@@ -1,0 +1,12 @@
+li {
+  font-size: 80%;
+}
+
+/* 
+
+So here lets examine what is going on here its the same logic 
+that applies each li has the font size of 80% what this means 
+is that we are going to be getting progressively smaller 
+that is something to be aware of here 
+
+*/

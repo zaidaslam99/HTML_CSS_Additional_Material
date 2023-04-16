@@ -1,0 +1,18 @@
+.notebox {
+  border: 4px solid #666;
+}
+
+.notebox.warning {
+  border-color: orange;
+  font-weight: bold;
+}
+
+.notebox.danger {
+  border-color: red;
+  font-weight: bold;
+}
+
+/* So here there was something new that I learned the very first 
+thing that we are going to be covering is the use of multiple classes
+notice how we are using .notebox.warning now this is going to be accessing 
+the class that .warning we can also use .warning it works the same */

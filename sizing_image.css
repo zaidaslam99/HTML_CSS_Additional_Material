@@ -1,0 +1,20 @@
+.box {
+  width: 200px;
+  border: 5px solid blue;
+  margin: 5px;
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* 
+
+images and videos are described as replaced elements this means 
+that css cannot effect the internal layout of these elements only 
+their position on a page amongst other elements. Something else that 
+we need to know is that we are working with max-width here and 
+again we talked about how we can set it to 100% of the max-width
+
+*/

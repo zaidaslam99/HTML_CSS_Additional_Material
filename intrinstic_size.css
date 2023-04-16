@@ -1,0 +1,17 @@
+img {
+  border: 5px solid darkblue;
+}
+
+/* 
+
+HTML have a natural size before they are affected by any 
+CSS a straightforward example is an image an image file contains 
+sizing information described as its intrinsic size. This is 
+determined by the image itself and not any formatting.
+
+As you can see this code we didn't have to modify the image 
+instead what we did was we just put the image in this is 
+what is known as the intrinsic size natural size prior to 
+any modification
+
+*/

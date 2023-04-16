@@ -1,0 +1,35 @@
+.box {
+  background-image: url(./small_png.png);
+  background-repeat: no-repeat;
+  background-position: 50px 50px;
+  /* background-position: top 20px right 10px; */
+  /* background-position: 20px 10%; */
+  /* background-position: 20px top; */
+  border: 5px solid red;
+  width: 400px;
+  height: 400px;
+}
+
+/* Here we are learning that not only can we change whether or not 
+we want the repeat we can also dictate the positioning here 
+this allows us to chose the position in which the background 
+image appears on the box that its applied to this will use the 
+coordinate system where the top left hand corner is 0,0 and 
+box is positioned along the horizontal and vertical axes 
+
+* So here we need to know everything that we learned thus far 
+is simple to understand here that being the box is going to be 
+positioned at the left corner and its going to be doing 50px from 
+the width and height that is something else to understand so not 
+only can we dictate the size of the div but we can also put 
+a picture there and then state whether we want that image to repeat 
+and as far as background position we can state the new corner  as 
+well these are things to take into account 
+
+
+* Something else that we can do is state that its going to be 
+20px from the top and 10px from the right we can state px to % 
+as well that is something to be aware of here as well.
+
+
+*/

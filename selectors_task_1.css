@@ -1,0 +1,18 @@
+h1 {
+  color: blue;
+}
+
+h2 {
+  background-color: blue;
+  color: white;
+}
+
+span {
+  font-size: 200%;
+}
+
+/* So the mistake that I made was that I didn't think about 
+putting the html in a div and for the h1 and h2 tag I was using 
+a class instead I could have just used the tags the other thing 
+is a div is a container that has all these different tags within 
+them that is something to be wary of */

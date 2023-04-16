@@ -1,0 +1,35 @@
+.positioned {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+body {
+  width: 500px;
+  margin: 0 auto;
+}
+
+p {
+  background-color: rgb(207, 232, 220);
+  border: 2px solid rgb(79, 185, 227);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+/* 
+
+    absolute position moves an element completely out of 
+    the page normal layout flow like its sitting on its 
+    separate layer From there you can fix it to a position 
+    relative to the edges of the closest positioned 
+    ancestors which becomes html if no other ancestors are 
+    positioned this is used for creating complex layout effects 
+    such as tabbed boxes where different content panels sit on 
+    top of one another and are shown and hidden as desired or 
+    info panels that sit of screen by default but can be made 
+    to slide on screen using a control button
+
+
+
+*/

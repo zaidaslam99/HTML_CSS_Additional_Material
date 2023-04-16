@@ -1,0 +1,41 @@
+.links-list a {
+  background-color: rgb(179, 57, 81);
+  color: #fff;
+  text-decoration: none;
+  padding: 1em 2em;
+  display: inline-block;
+}
+
+.links-list a:hover {
+  background-color: rgb(66, 28, 40);
+  color: #fff;
+}
+
+nav {
+  border: 5px solid red;
+}
+
+ul {
+  border: 5px solid green;
+}
+
+li {
+  border: 5px solid orange;
+}
+
+/* So here the thing that we need to know is this notice that 
+we created these containers around each element or tag in this 
+case the nav tag then the ul tag and the li tag what we did 
+first was that we then did was we added padding to the a tag 
+and thats the text and by doing this we kind of made everything 
+super close together so instead what we did was that changed the 
+display to inline block and what this does is that it causes the 
+padding to be respected makes the containers lined up and more neat 
+
+* Now there is something else that we need to know here and that being 
+we talked about inline block and inline flex what flex does is that 
+it stores the containers next to one another and what block does is that 
+it created blocks meaning stacking something else that I wanted to mention 
+was that display inline flex means that the containers we want them on the 
+same line and doing this what it does is that it bring the containers 
+closer to each other on the same line kind of like packing */

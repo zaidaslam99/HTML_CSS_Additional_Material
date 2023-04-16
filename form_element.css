@@ -1,0 +1,60 @@
+input[type="text"],
+input[type="email"] {
+  border: 2px solid #000;
+  margin: 0 0 1em 0;
+  padding: 10px;
+  width: 100%;
+}
+
+input[type="submit"] {
+  border: 3px solid #333;
+  background-color: #999;
+  border-radius: 5px;
+  padding: 10px 2em;
+  font-weight: bold;
+  color: #fff;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background-color: #333;
+}
+
+/* Added so you can see the different section */
+div {
+  border: 2px solid red;
+  margin: 8px;
+}
+
+/* 
+
+So lets talk about the label and input fields the thing 
+that we need to know here is that the for is going to be 
+the name and type is going to be text and the id is going 
+to be matching the for field. The same thing is happening 
+in the second div that we created where the for is matching 
+the id field. When we created the last div we a div and 
+passed a class of buttons and as for the input tag we had 
+the type as submit and value as submit my theory here is 
+that the type is used to indicate what type of input 
+and as for the name and id thats to link the label and 
+input together.
+
+So this is something new to us we are going to be working 
+with form elements inside the div we are going to be having 
+the label where its going to have a for and thats going 
+to be name and the next part is going to be an input tag where 
+we are going to be having our input when it comes to the 
+button the thing that we need to know is that its going to be 
+a div with class of button and then its going to be followed 
+by the input tag with type submit and value submit respectively
+
+So when it comes to the CSS part of the code the thing that 
+I wanted to mention here was that we can specify the input
+tag input[type="submit"] notice that there are two parts 
+to this code the first we are targeting the input tag and 
+the second being we are targeting the type as submit so we 
+are targeting what type of input we are looking for and 
+what we want done with it
+
+*/
